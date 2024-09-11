@@ -15,6 +15,10 @@ export default {
         '1/20': '5%',
         '19/20': '95%',
       },
+      colors: {
+        'slate-925': '#0b1123',
+        'indigo-1000': '#181a3a',
+      },
     },
   },
   plugins: [],
