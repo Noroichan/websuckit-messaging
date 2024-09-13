@@ -11,7 +11,7 @@
 </script>
 
 <template>
-    <!-- TODO smooth profile pic animation, customize scrollbars -->
+    <!-- TODO smooth profile pic animation, add send button -->
     <!-- Chat bubbles -->
     <section class="float-left bg-slate-925 w-1/20 h-screen">
         <div class="flex flex-col items-center h-4/6 overflow-y-auto">
