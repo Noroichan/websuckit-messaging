@@ -11,7 +11,7 @@
 </script>
 
 <template>
-    <!-- TODO smooth profile pic animation, add send button -->
+    <!-- TODO smooth profile pic animation, prevent profiles from too much shrinking -->
     <!-- Chat bubbles -->
     <section class="float-left bg-slate-925 w-1/20 h-screen">
         <div class="flex flex-col items-center h-4/6 overflow-y-auto">
@@ -27,6 +27,10 @@
         </div>
         <div class="flex flex-row items-center justify-items-center h-1/12 w-full px-4 rounded-sm">
             <textarea class="flex-grow bg-slate-700 m-4 rounded-lg"></textarea>
+            <!-- stolen from https://heroicons.com/ -->
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 stroke-indigo-800 hover:fill-indigo-800 hover:stroke-slate-900 hover:stroke-1">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+            </svg>
         </div>
     </section>
 </template>
