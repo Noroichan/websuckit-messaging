@@ -35,7 +35,7 @@
 </script>
 
 <template>
-    <!-- TODO smooth profile pic animation, prevent profiles from too much shrinking -->
+    <!-- TODO smooth profile pic animation -->
      <div class="flex flex-col h-screen">
         <header class="h-16 bg-slate-925">
             <svg @click="toggleChats" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-14 float-left ml-3 mt-1 stroke-indigo-800 hover:fill-indigo-800 hover:stroke-slate-900 hover:stroke-1">
