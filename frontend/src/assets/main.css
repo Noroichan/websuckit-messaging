@@ -2,3 +2,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::-webkit-scrollbar {
+    background: transparent;
+    width: 7px;
+    height: inherit;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(76, 29, 149, 0.4);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-button {
+    background-color: transparent;
+    height: 5px;
+}
+
+::-webkit-scrollbar-corner {
+    color: transparent;
+}
