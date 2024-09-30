@@ -1,4 +1,6 @@
-This is a full-stack messaging application to have something to show to companies and practice ... everythin'
+This is a full-stack messaging application for practicing porpuses.
+
+It's a personal project to have fun while learning.
 
 Good luck for everyone who views this
 
